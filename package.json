@@ -1,0 +1,15 @@
+{
+    "name": "pi-cc-commands",
+    "version": "0.1.0",
+    "description": "Browse Claude Code-format slash commands (.claude/commands) from inside pi without polluting context",
+    "keywords": ["pi-package", "pi-extension"],
+    "repository": "github:mikansoro/pi-cc-commands",
+    "license": "MIT",
+    "pi": {
+        "extensions": ["./index.ts"]
+    },
+    "peerDependencies": {
+        "@earendil-works/pi-coding-agent": "*",
+        "@earendil-works/pi-tui": "*"
+    }
+}
